@@ -1,0 +1,34 @@
+/* Define the fade-in animation */
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Define the fade-out animation */
+  @keyframes fadeOut {
+    0% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+  }
+  
+  /* Apply the animation to the modal */
+  .modal-fade-enter {
+    animation: fadeIn 0.3s ease-in-out forwards;
+    display: none;
+  }
+  
+  .modal-fade-exit {
+    animation: fadeOut 0.3s ease-in-out forwards;
+  }
+  
