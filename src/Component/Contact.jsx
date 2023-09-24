@@ -2,52 +2,89 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div className='p-20 bg-darkback text-white'>
-      <section className="py-6 bg-lightback dark:bg-gray-800 dark:text-gray-50 ">
-	<div className="grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x">
-		<div className="py-6 md:py-0 md:px-6">
-			<h1 className="text-4xl font-bold">Get in touch</h1>
-			<p className="pt-2 pb-4">Fill in the form to start a conversation</p>
-			<div className="space-y-4">
-				<p className="flex items-center">
-					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-5 h-5 mr-2 sm:mr-6">
-						<path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd"></path>
-					</svg>
-					<span>Fake address, 9999 City</span>
-				</p>
-				<p className="flex items-center">
-					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-5 h-5 mr-2 sm:mr-6">
-						<path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"></path>
-					</svg>
-					<span>123456789</span>
-				</p>
-				<p className="flex items-center">
-					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-5 h-5 mr-2 sm:mr-6">
-						<path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
-						<path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
-					</svg>
-					<span>contact@business.com</span>
-				</p>
+	<>
+	<div className="flex justify-center items-center w-screen h-screen bg-white my-24">
+	 
+	<div className="container mx-auto my-4 px-4 lg:px-20">
+
+		<div className="w-full p-8 my-4 md:px-12 lg:w-9/12 lg:pl-20 lg:pr-40 mr-auto rounded-2xl shadow-2xl ">
+			<div className="flex">
+				<h1 className="font-bold uppercase text-5xl ">Send us a <br /> message</h1>
 			</div>
-		</div>
-		<form novalidate="" className="flex flex-col py-6 space-y-6 md:py-0 md:px-6">
-			<label className="block">
-				<span className="mb-1">Full name</span>
-				<input type="text" placeholder="Leroy Jenkins" className="block w-full rounded-md shadow-sm focus:ring focus:ri focus:ri dark:bg-gray-800" />
-			</label>
-			<label className="block">
-				<span className="mb-1">Email address</span>
-				<input type="email" placeholder="leroy@jenkins.com" className="block w-full rounded-md shadow-sm focus:ring focus:ri focus:ri dark:bg-gray-800" />
-			</label>
-			<label className="block">
-				<span className="mb-1">Message</span>
-				<textarea rows="3" className="block w-full rounded-md focus:ring focus:ri focus:ri dark:bg-gray-800"></textarea>
-			</label>
-			<button type="button" className="self-center px-8 py-3 text-lg rounded focus:ring hover:ring focus:ri dark:bg-violet-400 dark:text-gray-900 focus:ri hover:ri">Submit</button>
-		</form>
-	</div>
-</section>
+			<div className="grid grid-cols-1 gap-5 md:grid-cols-2 mt-5">
+				<input className="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+            type="text" placeholder="First Name*" />
+				<input className="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+            type="text" placeholder="Last Name*" />
+				<input className="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+            type="email" placeholder="Email*" />
+				<input className="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+            type="number" placeholder="Phone*" />
+        </div>
+				<div className="my-4">
+					<textarea placeholder="Message*" className="w-full h-32 bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"></textarea>
+				</div>
+				<div className="my-2 w-1/2 lg:w-1/4">
+					<button className="uppercase text-sm font-bold tracking-wide bg-indigo-900 text-gray-100 p-3 rounded-lg w-full 
+                      focus:outline-none focus:shadow-outline">
+            Send Message
+          </button>
+				</div>
+			</div>
+
+			<div
+				className="w-full lg:-mt-96 lg:w-2/6 px-8 py-12 ml-auto bg-indigo-900 rounded-2xl">
+				<div className="flex flex-col text-white">
+					<h1 className="font-bold uppercase text-4xl my-4">Drop in our office</h1>
+					<p className="text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+						tincidunt arcu diam,
+						eu feugiat felis fermentum id. Curabitur vitae nibh viverra, auctor turpis sed, scelerisque ex.
+					</p>
+
+					<div className="flex my-4 w-2/3 lg:w-1/2">
+						<div className="flex flex-col">
+							<i className="fas fa-map-marker-alt pt-2 pr-2" />
+            </div>
+            <div className="flex flex-col">
+              <h2 className="text-2xl">Main Office</h2>
+              <p className="text-gray-400">5555 Tailwind RD, Pleasant Grove, UT 73533</p>
+            </div>
+          </div>
+          
+          <div className="flex my-4 w-2/3 lg:w-1/2">
+            <div className="flex flex-col">
+              <i className="fas fa-phone-alt pt-2 pr-2" />
+            </div>
+            <div className="flex flex-col">
+              <h2 className="text-2xl">Call Us</h2>
+              <p className="text-gray-400">Tel: xxx-xxx-xxx</p>
+              <p className="text-gray-400">Fax: xxx-xxx-xxx</p>
+            </div>
+          </div>
+          
+          <div className="flex my-4 w-2/3 lg:w-1/2">
+            <a href="https://www.facebook.com/ENLIGHTENEERING/" target="_blank" rel="noreferrer" className="rounded-full bg-white h-8 w-8 inline-block mx-1 text-center pt-1">
+              <i className="fab fa-facebook-f text-blue-900" />
+            </a>
+            <a href="https://www.linkedin.com/company/enlighteneering-inc-" target="_blank" rel="noreferrer" className="rounded-full bg-white h-8 w-8 inline-block mx-1 text-center pt-1">
+              <i className="fab fa-linkedin-in text-blue-900" />
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
+    
+</div>
+
+ 
+<div className="flex items-end justify-end fixed bottom-0 right-0 mb-4 mr-4 z-10">
+  <div>
+    <a title="Buy me a pizza" href="https://www.buymeacoffee.com/Dekartmc" target="_blank" className="block w-16 h-16 rounded-full transition-all shadow hover:shadow-lg transform hover:scale-110 hover:rotate-12">
+      {/* <img className="object-cover object-center w-full h-full rounded-full" src="https://img.icons8.com/emoji/48/000000/pizza-emoji.png"/> */}
+    </a>
+  </div>
+</div>
+</>
   )
 }
 

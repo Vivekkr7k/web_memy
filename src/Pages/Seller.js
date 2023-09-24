@@ -10,8 +10,7 @@ const Seller = () => {
    <SellerNav/>
    <SellerProfile/>
    <SellerService/>
-   <ServiceandPyaments/>
-   
+   <ServiceandPyaments/> 
    </>
    
   )

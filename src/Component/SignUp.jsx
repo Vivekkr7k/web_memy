@@ -34,23 +34,23 @@ const SignUp = () => {
 
               <div className="col-span-full sm:col-span-3">
                 <label htmlFor="firstname" className="text-sm">First name</label>
-                <input id="firstname" type="text" placeholder="First name" className="w-full rounded-md focus:ring focus:ri focus:ri dark:border-gray-700 dark:text-gray-900 text-black" />
+                <input id="firstname" type="text" placeholder="First name" className="w-full py-2 rounded-md focus:ring focus:ri focus:ri dark:border-gray-700 dark:text-gray-900 text-black" />
               </div>
               <div className="col-span-full sm:col-span-3">
                 <label htmlFor="lastname" className="text-sm">Last name</label>
-                <input id="lastname" type="text" placeholder="Last name" className="w-full rounded-md focus:ring focus:ri focus:ri dark:border-gray-700 dark:text-gray-900 text-black" />
+                <input id="lastname" type="text" placeholder="Last name" className="w-full py-2 rounded-md focus:ring focus:ri focus:ri dark:border-gray-700 dark:text-gray-900 text-black" />
               </div>
               <div className="col-span-full sm:col-span-3">
                 <label htmlFor="email" className="text-sm">Email</label>
-                <input id="email" type="email" placeholder="Email" className="w-full rounded-md focus:ring focus:ri focus:ri dark:border-gray-700 dark:text-gray-900 text-black" />
+                <input id="email" type="email" placeholder="Email" className="w-full py-2 rounded-md focus:ring focus:ri focus:ri dark:border-gray-700 dark:text-gray-900 text-black" />
               </div>
               <div className="col-span-3">
                 <label htmlFor="address" className="text-sm">DOB</label>
-                <input id="address" type="date" placeholder="" className="w-full rounded-md focus:ring focus:ri focus:ri dark:border-gray-700 dark:text-gray-900 text-black" />
+                <input id="address" type="date" placeholder="" className="w-full py-2 rounded-md focus:ring focus:ri focus:ri dark:border-gray-700 dark:text-gray-900 text-black" />
               </div>
               <div className="col-span-full sm:col-span-2">
                 <label htmlFor="referralCode" className="text-sm">Referral Code "Optional"</label>
-                <input id="referralCode" type="text" placeholder="" className="w-full rounded-md focus:ring focus:ri focus:ri dark:border-gray-700 dark:text-gray-900 text-black" />
+                <input id="referralCode" type="text" placeholder="" className="w-full py-2 rounded-md focus:ring focus:ri focus:ri dark:border-gray-700 dark:text-gray-900 text-black" />
               </div>
               <div className="col-span-full sm:col-span-2">
                 <label htmlFor="zip" className="text-sm">ZIP / Postal</label>

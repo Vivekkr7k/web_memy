@@ -3,41 +3,45 @@ import React from 'react'
 const Testimonail = () => {
   return (
     <section className="my-8">
-	<div className="container mx-auto flex flex-col items-center pb-6 mb-4 md:p-10 md:px-12">
-		<h1 className="text-4xl font-semibold leadi text-center">What our customers are saying about us</h1>
-	</div>
-	<div className="container mx-auto grid grid-cols-1 gap-8 lg:gap-20 md:px-10 md:pb-10 lg:grid-cols-2">
-		<div className="flex flex-col items-center mx-12 lg:mx-0">
-			<div className="relative text-center">
-				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" className="absolute top-0 left-0 w-8 h-8 dark:text-gray-700">
-					<path d="M232,246.857V16H16V416H54.4ZM48,48H200V233.143L48,377.905Z"></path>
-					<path d="M280,416h38.4L496,246.857V16H280ZM312,48H464V233.143L312,377.905Z"></path>
-				</svg>
-				<p className="px-6 py-1 text-lg italic">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus quibusdam, eligendi exercitationem molestias possimus facere.</p>
-				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" className="absolute bottom-0 right-0 w-8 h-8 dark:text-gray-700">
-					<path d="M280,185.143V416H496V16H457.6ZM464,384H312V198.857L464,54.1Z"></path>
-					<path d="M232,16H193.6L16,185.143V416H232ZM200,384H48V198.857L200,54.1Z"></path>
-				</svg>
-			</div>
-			<span className="w-12 h-1 my-2 rounded-lg dark:bg-violet-400"></span>
-			<p>Leroy Jenkins</p>
-		</div>
-		<div className="flex flex-col items-center max-w-lg mx-12 lg:mx-0">
-			<div className="relative text-center">
-				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" className="absolute top-0 left-0 w-8 h-8 dark:text-gray-700">
-					<path fill="currentColor" d="M232,246.857V16H16V416H54.4ZM48,48H200V233.143L48,377.905Z"></path>
-					<path fill="currentColor" d="M280,416h38.4L496,246.857V16H280ZM312,48H464V233.143L312,377.905Z"></path>
-				</svg>
-				<p className="px-6 py-1 text-lg italic">Accusantium illum cupiditate harum asperiores iusto quos quasi quis quae! Fugit doloribus, voluptatum quidem magnam velit excepturi nobis, reprehenderit ducimus incidunt quisquam quae veritatis, quos iure harum.</p>
-				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" className="absolute bottom-0 right-0 w-8 h-8 dark:text-gray-700">
-					<path fill="currentColor" d="M280,185.143V416H496V16H457.6ZM464,384H312V198.857L464,54.1Z"></path>
-					<path fill="currentColor" d="M232,16H193.6L16,185.143V416H232ZM200,384H48V198.857L200,54.1Z"></path>
-				</svg>
-			</div>
-			<span className="w-12 h-1 my-2 rounded-lg dark:bg-violet-400"></span>
-			<p>Leroy Jenkins</p>
-		</div>
-	</div>
+	
+<div class="py-16 white">  
+    <div class="container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
+        <h2 class="mb-12 text-center text-2xl text-gray-900 font-bold md:text-4xl">Our Team</h2>
+        <div class="grid gap-8 md:grid-rows-2 lg:grid-cols-2">
+          <div class="row-span-2 p-6 border border-gray-100 rounded-xl bg-gray-50 text-center sm:p-8">
+            <div class="h-full flex flex-col justify-center space-y-4">
+              <img class="w-20 h-20 mx-auto rounded-full" src="https://tailus.io/sources/blocks/grid-cards/preview/images/avatars/second_user.webp" alt="user avatar" height="220" width="220" loading="lazy"/>
+              <p class="text-gray-600 md:text-xl"> <span class="font-serif">"</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat repellat perspiciatis excepturi est. Non ipsum iusto aliquam consequatur repellat provident, omnis ut, sapiente voluptates veritatis cum deleniti repudiandae ad doloribus. <span class="font-serif">"</span></p>
+              <div>
+                  <h6 class="text-lg font-semibold leading-none">Jane Doe</h6>
+                  <span class="text-xs text-gray-500">Product Designer</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="p-6 border border-gray-100 rounded-xl bg-gray-50 sm:flex sm:space-x-8 sm:p-8">
+            <img class="w-20 h-20 mx-auto rounded-full" src="https://tailus.io/sources/blocks/grid-cards/preview/images/avatars/first_user.webp" alt="user avatar" height="220" width="220" loading="lazy"/>
+            <div class="space-y-4 mt-4 text-center sm:mt-0 sm:text-left">
+              <p class="text-gray-600"> <span class="font-serif">"</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat repellat perspiciatis excepturi est. Non ipsum iusto aliquam consequatur repellat provident, omnis ut, sapiente voluptates veritatis cum deleniti repudiandae ad doloribus. <span class="font-serif">"</span></p>
+              <div>
+                  <h6 class="text-lg font-semibold leading-none">Jane Doe</h6>
+                  <span class="text-xs text-gray-500">Product Designer</span>
+              </div>
+            </div>
+          </div>
+          <div class="p-6 border border-gray-100 rounded-xl bg-gray-50 sm:flex sm:space-x-8 sm:p-8">
+            <img class="w-20 h-20 mx-auto rounded-full" src="https://tailus.io/sources/blocks/grid-cards/preview/images/avatars/third_user.webp" alt="user avatar" height="220" width="220" loading="lazy"/>
+            <div class="space-y-4 mt-4 text-center sm:mt-0 sm:text-left">
+              <p class="text-gray-600"> <span class="font-serif">"</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat repellat perspiciatis excepturi est. Non ipsum iusto aliquam consequatur repellat provident, omnis ut, sapiente voluptates veritatis cum deleniti repudiandae ad doloribus. <span class="font-serif">"</span></p>
+              <div>
+                  <h6 class="text-lg font-semibold leading-none">Jane Doe</h6>
+                  <span class="text-xs text-gray-500">Product Designer</span>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+</div>
 </section>
   )
 }
