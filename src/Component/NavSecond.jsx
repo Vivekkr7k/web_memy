@@ -77,12 +77,12 @@ function Nav() {
       </div>
 
       {modalOpen && (
-      <motion.div   className="fixed inset-0 flex items-center justify-center z-50  bg-black ">
+      <motion.div   className="fixed inset-0 flex items-center justify-center z-50  bg-white/30   ">
       <div className="modal-overlay fixed inset-0  opacity-50 "></div>
-      <div className="modal bg-dark text-white p-4 rounded-md">
+      <div className="modal text-white p-4 rounded-md">
        
-        <motion.div  initial={{x:-400}} animate={{x:0}} transition={{duration:"1", type:"spring" , stiffness: "100" }}
-        className="modal-content bg-black rounded-lg">
+        <motion.div  initial={{x:400, y:-400 , opacity:0}} animate={{x:0 , y:0 , opacity:1}} transition={{duration:"1", type:"spring" , stiffness: "100" }}
+        className="modal-content bg-gradient-to-tr from-light-blue-300 to-light-blue-400 rounded-lg">
           <div className="flex items-center justify-between w-full">
           <h2 className="text-xl font-semibold mb-4 p-3 flex ml-36">Basic Details</h2>
           <button
@@ -94,7 +94,7 @@ function Nav() {
           </div>
           <div className="card px-10 py-5 flex items-center justify-center">
             <div className="left w-2/4 h-50vh flex flex-col items-center justify-center">
-                 <img className="bg-black w-40 h-40" src={Avatar} alt="" />
+                 <img className="bg-black w-40 h-40 rounded-full" src={Avatar} alt="" />
                  <h1 className="py-3">UserName</h1>
                  <p>user@gmail.com</p>
             </div>

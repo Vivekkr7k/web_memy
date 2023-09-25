@@ -16,7 +16,7 @@ body, input{
     position: relative;
     width: 100%;
     min-height: 90vh;
-    background-color: #4481eb;
+    background-color: #f8f9fa;
     overflow: hidden;
     border-radius: 10px;
 }
@@ -27,7 +27,7 @@ body, input{
     width: 2000px;
     height: 2000px;
     border-radius: 50%;
-    background: linear-gradient(-45deg, #282727 , #10100f);
+    background: linear-gradient(-45deg, #72b7f3 , #67bbdf);
     top: -10%;
     right:48% ;
     transform: translateY(-50%);
@@ -124,7 +124,7 @@ form.sign-up-form{
     outline: none;
     border-radius: 49px;
     cursor: pointer;
-    background-color: #5995fd;
+    background-color: #2b74f2;
     color: #fff;
     text-transform: uppercase;
     font-weight: 600;
@@ -133,7 +133,7 @@ form.sign-up-form{
 }
 
 .btn:hover{
-    background-color: whitesmoke; 
+    background-color: whitesmoke ; 
     color: black;
 }
 

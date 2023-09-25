@@ -40,7 +40,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div className='flex gap-4'>
-        <button className='bg-indigo-700 text-white px-4 py-2 rounded-xl shadow-md shadow-indigo-100' onClick={handleSignInClick}>SignIn</button>
+        <button className='bg-indigo-400 text-white px-4 py-2 rounded-xl shadow-md shadow-indigo-100' onClick={handleSignInClick}>SignIn</button>
         <button className='bg-white text-black px-4 py-2 rounded-xl shadow-md shadow-indigo-100' onClick={handleSignUpClick}>SignUp</button>
       </div>
       <AnimatePresence> {/* Wrap the modals in AnimatePresence */}
